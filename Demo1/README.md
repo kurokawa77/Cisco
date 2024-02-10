@@ -1,1 +1,1 @@
-#This is a Git tutorial
+#This is a Git 2
