@@ -17,3 +17,4 @@ duo_secret_key = env.DUO_SECRET_KEY
 duo_api_host = env.DUO_API_HOST
 
 print(duo_integration_key)
+print(duo_integration_key)
