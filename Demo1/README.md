@@ -1,1 +1,1 @@
-#This is a Git README for the first time and some changes.
+#This is a Git README for the first time and some changes. It is not easy
