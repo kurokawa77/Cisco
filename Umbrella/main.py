@@ -79,6 +79,6 @@ def get_umbrella_summary():
 
 if __name__ == '__main__':
     # get security summary from Umbrella
-    print("\nThis is Org ID:", umb_org_id)
+    print(f"\nThis is Org ID: {umb_org_id}\n")
     get_umbrella_summary = get_umbrella_summary()
     print(get_umbrella_summary)
