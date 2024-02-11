@@ -1,5 +1,4 @@
-# This is a sample Python script for Cisco Duo solution.
-# Reference https://developer.cisco.com/learning/modules/security-sase/
+# This is a sample Python script.
 # Reference https://developer.cisco.com/learning/labs/sase-2-duo/creating-and-reading-users-with-duo-admin-api/
 # you need to add environment.py for editting various key
 
@@ -7,16 +6,15 @@ import pprint
 import sys
 import duo_client
 
-# adds /home or any directory like "Users/taka" to the path to import environment module - environment.py
+# adds /home to the path to import environment module
 sys.path.insert(0, '/Users/taka')
 
-# import API key variables from environment.py
+# import API key module
 import environment as env
 duo_integration_key = env.DUO_INTEGRATION_KEY
 duo_secret_key = env.DUO_SECRET_KEY
 duo_api_host = env.DUO_API_HOST
 
-# Form a session by using duo_client.Admin API and create a instance
 duo_api = duo_client.Admin(
     ikey=duo_integration_key,
     skey=duo_secret_key,
